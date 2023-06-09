@@ -10,3 +10,23 @@ The analysis are mainly splitted into 3 parts.
 
 ## Objective
 The objective of this data analysis is to identify the factors that contribute to recidivism among offenders and the biased prediction problem on COMPAS assessment, and propose a cost-sensitive learning to mitigate it. 
+
+## Content
+
+### Basic Analysis
+1. Overall situation
+2. Detail Description of specific features. (charge degree, legal status, decile score, recidivist, sex, race, age)
+
+### Factor Analysis
+1. Correlation of factors.
+2. Feature analysis classified by recidivist. 
+3. Hypothesis test on the significant factors. 
+
+### Bias Analysis
+1. Thresholding the scoring system
+2. Racial bias analysis on accuracy, false positive rate, positive predictive rate, false omission rate.
+3. Cost sensitive learning
+
+## Result
+African-Americans are disadvantaged in terms of false positive rate for 20% comparing with the others. Their cost grows higher than the others as the harm of false positive increases. The cost sensitive learning mitigated the situation.
+
